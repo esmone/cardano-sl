@@ -141,6 +141,7 @@ library
                         Pos.Delegation.Types
 
                         -- Wallets
+                        Pos.Wallet.KeyStorage
                         Pos.Wallet.Web.Secret
 
                         -- Exposed for tests
