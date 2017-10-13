@@ -68,7 +68,6 @@ import qualified Prelude
 import           Serokell.Util         (listJsonIndent)
 import           Servant.Multipart     (FileData)
 
-import           Pos.Aeson.Types       ()
 import           Pos.Core.Types        (ScriptVersion)
 import           Pos.Types             (BlockVersion, ChainDifficulty, SoftwareVersion)
 import           Pos.Util.BackupPhrase (BackupPhrase)
