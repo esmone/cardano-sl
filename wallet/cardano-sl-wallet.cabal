@@ -24,12 +24,27 @@ library
                       Pos.Aeson.WalletBackup
 
                       Pos.Wallet
+                      Pos.Wallet.KeyStorage
+                      Pos.Wallet.SscType
                       Pos.Wallet.Redirect
+                      Pos.Wallet.WalletMode
+
                       Pos.Wallet.Web
                       Pos.Wallet.Web.Account
+                      Pos.Wallet.Web.Assurance
                       Pos.Wallet.Web.Api
                       Pos.Wallet.Web.Backup
+
+                      Pos.Wallet.Web.ClientTypes
+                      Pos.Wallet.Web.ClientTypes.Functions
+                      Pos.Wallet.Web.ClientTypes.Instances
+                      Pos.Wallet.Web.ClientTypes.Types
+                      Pos.Wallet.Web.Error
+                      Pos.Wallet.Web.Error.Types
+                      Pos.Wallet.Web.Error.Util
+
                       Pos.Wallet.Web.Mode
+
                       Pos.Wallet.Web.Methods
                       Pos.Wallet.Web.Methods.Backup
                       Pos.Wallet.Web.Methods.History
@@ -40,29 +55,44 @@ library
                       Pos.Wallet.Web.Methods.Reporting
                       Pos.Wallet.Web.Methods.Restore
                       Pos.Wallet.Web.Methods.Txp
+
                       Pos.Wallet.Web.Pending
+                      Pos.Wallet.Web.Pending.Types
                       Pos.Wallet.Web.Pending.Submission
                       Pos.Wallet.Web.Pending.Functions
+                      Pos.Wallet.Web.Pending.Util
                       Pos.Wallet.Web.Pending.Worker
+
                       Pos.Wallet.Web.Server
                       Pos.Wallet.Web.Server.Handlers
                       Pos.Wallet.Web.Server.Launcher
                       Pos.Wallet.Web.Server.Runner
+
                       Pos.Wallet.Web.Sockets
                       Pos.Wallet.Web.Sockets.ConnSet
                       Pos.Wallet.Web.Sockets.Connection
                       Pos.Wallet.Web.Sockets.Notifier
                       Pos.Wallet.Web.Sockets.Types
+
+                      Pos.Wallet.Web.State
+                      Pos.Wallet.Web.State.Acidic
+                      Pos.Wallet.Web.State.State
+                      Pos.Wallet.Web.State.Storage
+                      Pos.Wallet.Web.State.Util
+
                       Pos.Wallet.Web.Swagger
                       Pos.Wallet.Web.Swagger.CustomSwagger
                       Pos.Wallet.Web.Swagger.Description
                       Pos.Wallet.Web.Swagger.Instances.Schema
                       Pos.Wallet.Web.Swagger.Instances.Swagger
                       Pos.Wallet.Web.Swagger.Spec
+
                       Pos.Wallet.Web.Tracking
                       Pos.Wallet.Web.Tracking.BListener
                       Pos.Wallet.Web.Tracking.Sync
                       Pos.Wallet.Web.Tracking.Modifier
+
+                      Pos.Wallet.Web.Util
 
   build-depends:        aeson >= 0.11.2.1
                       , ansi-wl-pprint
@@ -87,6 +117,7 @@ library
                       , exceptions
                       , filepath
                       , formatting
+                      , hashable
                       , lens
                       , log-warper
                       , mtl
